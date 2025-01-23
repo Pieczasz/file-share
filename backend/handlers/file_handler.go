@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-const uploadDir = "/uploads"
+const uploadDir = "./uploads"
 
 func init() {
     if err := os.MkdirAll(uploadDir, 0755); err != nil {
