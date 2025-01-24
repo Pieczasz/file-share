@@ -32,6 +32,12 @@ func ValidateFileUpload() gin.HandlerFunc {
             ".png":  true,
             ".jpg":  true,
             ".jpeg": true,
+            ".gif":  true,
+            ".zip":  true,
+            ".tar":  true,
+            ".gz":   true,
+            ".mp4":  true,
+            ".mp3":  true,
         }
 
         if !allowedExts[ext] {

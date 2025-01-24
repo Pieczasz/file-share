@@ -15,9 +15,7 @@ module.exports = {
 				'2xl': '1400px',
 			},
 		},
-		extend: {
-			// shadcn/ui recommended extensions
-		},
+		extend: {},
 	},
 	plugins: [require('tailwindcss-animate')],
 };

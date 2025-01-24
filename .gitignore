@@ -32,3 +32,22 @@ yarn-error.log*
 # System files
 .DS_Store
 Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment
+.env.*
+!.env.example
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Misc
+*.tsbuildinfo
+.vercel
+.next
